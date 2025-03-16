@@ -1,0 +1,95 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Mohamed Salah",
+      "team": "Liverpool",
+      "position": "Forward",
+      "league": "Premier League",
+      "continent": "Africa",
+      "countries": "Egypt"
+    },
+    {
+      "id": 2,
+      "name": "Kylian Mbappe",
+      "team": "Paris Saint-Germain",
+      "position": "Forward",
+      "league": "Ligue 1",
+      "continent": "Europe",
+      "countries": "France"
+    },
+    {
+      "id": 3,
+      "name": "Son Heung-min",
+      "team": "Tottenham Hotspur",
+      "position": "Forward",
+      "league": "Premier League",
+      "continent": "Asia",
+      "countries": "South Korea"
+    },
+    {
+      "id": 4,
+      "name": "Lionel Messi",
+      "team": "Inter Miami",
+      "position": "Forward",
+      "league": "MLS",
+      "continent": "South America",
+      "countries": "Argentina"
+    },
+    {
+      "id": 5,
+      "name": "Christian Pulisic",
+      "team": "AC Milan",
+      "position": "Midfielder",
+      "league": "Serie A",
+      "continent": "North America",
+      "countries": "USA"
+    },
+    {
+      "id": 6,
+      "name": "Takefusa Kubo",
+      "team": "Real Sociedad",
+      "position": "Midfielder",
+      "league": "La Liga",
+      "continent": "Asia",
+      "countries": "Japan"
+    },
+    {
+      "id": 7,
+      "name": "Victor Osimhen",
+      "team": "Napoli",
+      "position": "Forward",
+      "league": "Serie A",
+      "continent": "Africa",
+      "countries": "Nigeria"
+    },
+    {
+      "id": 8,
+      "name": "Neymar Jr.",
+      "team": "Al Hilal",
+      "position": "Forward",
+      "league": "Saudi Pro League",
+      "continent": "South America",
+      "countries": "Brazil"
+    },
+    {
+      "id": 9,
+      "name": "Alphonso Davies",
+      "team": "Bayern Munich",
+      "position": "Defender",
+      "league": "Bundesliga",
+      "continent": "North America",
+      "countries": "Canada"
+    },
+    {
+      "id": 10,
+      "name": "Mathew Ryan",
+      "team": "AZ Alkmaar",
+      "position": "Goalkeeper",
+      "league": "Eredivisie",
+      "continent": "Australia",
+      "countries": "Australia"
+    }
+  ],
+  "continent": [{}]
+}

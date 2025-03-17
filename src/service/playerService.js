@@ -9,6 +9,15 @@ const PlayerService = {
       console.log("Serverga req junatishdagi xatolik", error);
     }
   },
+
+  postPlayerCreated: async (datas) => {
+    try {
+      const { data } = await api.post("/players", datas);
+      return data;
+    } catch (error) {
+      console.log("post qilishdagi xatolik");
+    }
+  },
 };
 
 export default PlayerService;

@@ -1,5 +1,10 @@
+import { useEffect } from "react";
 import { AddUserForm, AddUserList, UserFilter } from "./components/index";
 function App() {
+  useEffect(() => {
+    console.log("Komponent yuklandi!");
+  }, []); // Faqat bir marta ishlaydi
+
   return (
     <div className="h-screen w-full relative app">
       <div className="absolute inset-0 bg-black/80 blur-3xl z-10" />

@@ -21,9 +21,14 @@ export const playerSlice = createSlice({
       state.isLoading = false;
       state.error = actions.payload;
     },
+    playerCreated: (state, action) => {
+      state.isLoading = false;
+      console.log("created indexda");
+      state.players = [...state.players, action.payload];
+    },
   },
 });
 
-export const { playerStart, playerSuccess, playerFailure } =
+export const { playerStart, playerSuccess, playerFailure, playerCreated } =
   playerSlice.actions;
 export default playerSlice.reducer;

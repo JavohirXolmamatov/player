@@ -12,9 +12,10 @@ function AddUserList() {
     dispatch(playerStart());
     try {
       const res = await PlayerService.getPlayer();
+      console.log("yana");
       dispatch(playerSuccess(res));
     } catch (error) {
-      dispatch(playerFailure());
+      dispatch(playerFailure(error));
       console.log(error);
     }
   };
